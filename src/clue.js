@@ -2,6 +2,8 @@
 
 // Suspects Array
 
+//NOT DONE YET, STILL WORKING ON THIS!  1/24/22
+
 const suspectsArray = [
   {firstName: "Jacob",
   lastName: "Green",
@@ -54,36 +56,6 @@ const suspectsArray = [
 // Rooms Array
 
 const roomsArray = [
-{name: "rope",
-weight: 10},
-
-{name: "knife",
-weight: 8},
-
-{name: "candlestick",
-weight: 2},
-
-{name: "dumbbell",
-weight: 30},
-
-{name: "poison",
-weight: 2},
-
-{name: "axe", 
-weight: 15},
-
-{name: "bat",
-weight: 13},
-
-{name: "trophy",
-weight: 25},
-
-{name: "pistol",
-weight: 20}];
-
-// Weapons Array
-
-const weaponsArray = [
   {name: "Dining Room"},
   {name: "Conservatory"},
   {name: "Kitchen"},
@@ -99,18 +71,57 @@ const weaponsArray = [
   {name: "Theater"},
   {name: "Guest House"},
   {name: "Patio"}];
+// Weapons Array
+
+const weaponsArray = [
+{name: "rope",
+weight: 10},
+{name: "knife",
+weight: 8},
+{name: "candlestick",
+weight: 2},
+{name: "dumbbell",
+weight: 30},
+{name: "poison",
+weight: 2},
+{name: "axe", 
+weight: 15},
+{name: "bat",
+weight: 13},
+{name: "trophy",
+weight: 25},
+{name: "pistol",
+weight: 20}];
 
 
 // ITERATION 2
 
-function selectRandom() {}
+//Random selector
+//Declare a function named selectRandom to randomly select one element from a card stack. The function should expect an array as an argument, and should return a random element from the array.
 
-function pickMystery() {}
+function selectRandom() {
 
+}
+
+//Create the mystery
+//Declare a function named pickMystery that takes no arguments and returns an object with three properties: suspect, weapon and room, each holding as a value a card of that specific type. You can get a random card of each type by calling selectRandom on each card stack.
+
+function pickMystery() {
+
+}
 
 // ITERATION 3
 
-function revealMystery() {}
+//Reveal the mystery
+//At last, we are ready to reveal the mystery.
+
+//Declare a function named revealMystery that receives an envelope object (with the shape of the object returned by pickMystery) as the single argument, and returns a reveal message in the following format:
+
+//<FIRST NAME> <LAST NAME> killed Mr. Boddy using the <WEAPON> in the <ROOM>!
+
+function revealMystery() {
+  
+}
 
 
 
